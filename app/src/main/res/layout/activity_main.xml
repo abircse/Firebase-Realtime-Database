@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FIREBASE DATABASE TEST"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:layout_marginBottom="25dp"
+        />
+
+   
+    <EditText
+        android:hint="Enter Name"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"/>
+
+
+    <EditText
+        android:hint="Enter Email"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"/>
+
+    <EditText
+        android:hint="Enter Phone"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/phone"/>
+
+
+    <EditText
+        android:hint="Enter User Name"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"/>
+
+
+    <EditText
+        android:hint="Enter Password"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"/>
+
+    <Button
+        android:id="@+id/insertdata"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="SAVE"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:onClick="viewsdata"
+        android:layout_height="wrap_content"
+        android:text="VIEW "
+        />
+</LinearLayout>
